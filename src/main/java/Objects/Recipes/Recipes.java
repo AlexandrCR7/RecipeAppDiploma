@@ -1,4 +1,4 @@
 package Objects.Recipes;
 
-public class Recipes {
+public abstract class Recipes {
 }

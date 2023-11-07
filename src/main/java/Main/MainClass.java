@@ -12,7 +12,7 @@ import Servise.DishPotatPlusSosi;
 import View.Viewer;
 
 public class MainClass {
-    public static void main(String[] args) {
+    public void start() {
 
         // Products
         Potato potato = new Potato();
@@ -34,6 +34,5 @@ public class MainClass {
         AllDishes allDishes = new AllDishes();
 
         searcher.search(allDishes.menu(dishCarrotPlusPotat, dishPotatPlusSosi), viewer.request());
-
     }
 }

@@ -1,6 +1,6 @@
 package Objects.Products;
 
-public class Products {
+public abstract class Products {
     String name;
     Integer calories100gr;
     String typeOfCooking1;

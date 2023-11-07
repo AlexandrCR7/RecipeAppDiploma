@@ -3,8 +3,8 @@ import Servise.AllDishes;
 import Servise.Dish;
 import java.util.List;
 
-public class Searcher {
-
+public class Searcher implements SearcherInterface{
+    @Override
     public void search(List<Dish> dishes, String viewer) {
         Integer count = 0;
         for (int i = 0; i < dishes.size(); i++) {
